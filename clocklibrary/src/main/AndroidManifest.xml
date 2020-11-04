@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swufe.clocklibrary">
+            <!--开启震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+          <!--开启锁屏权限-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+      <!--开机启动权限-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <receiver android:name="com.swufe.clocklibrary.AlarmReceiver"
+            android:process=":newinst"
+            android:priority="100">
+            <intent-filter>
+                <action android:name="com.swufe.clock" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".ClockAlarmActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+</manifest>

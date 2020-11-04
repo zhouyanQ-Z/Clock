@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">闹钟</string>
+
+    <string name="tab1_activity_title">闹 钟</string>
+    <string name="tab2_activity_title">时 钟</string>
+    <string name="tab3_activity_title">秒 表</string>
+    <string name="tab4_activity_title">计 时 器</string>
+    <string name="edit">编辑</string>
+    <string name="tab1_run">闹钟想起来了!</string>
+    <string name="tab1_stop">关闭闹钟</string>
+    <string name="begin">开始</string>
+    <string name="stop_waiting">暂停</string>
+    <string name="going_on">继续</string>
+    <string name="reset">重置</string>
+    <string name="count_time">计次</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+
+    <string name="mon">周一</string>
+    <string name="tue">周二</string>
+    <string name="wed">周三</string>
+    <string name="thu">周四</string>
+    <string name="fri">周五</string>
+    <string name="sat">周六</string>
+    <string name="sun">周日</string>
+    <string name="cycle_sure">确定</string>
+    <string name="vibration">震动</string>
+    <string name="ring">铃声</string>
+    <string name="selected_alarm">选择闹钟</string>
+    <string name="search_hint">搜索时区</string>
+    <string name="repeat">重复</string>
+    <string name="click_text">点击这里，选择时间</string>
+    <string name="country_name">中国</string>
+    <string name="today">今天</string>
+    <string name="time_world">11:20</string>
+    <string name="selected_timecount">请选择计时时长</string>
+    <string name="tv_hour">时</string>
+    <string name="tv_minute">分</string>
+    <string name="tv_second">秒</string>
+    <string name="tv_colon">:</string>
+    <string name="tv_spot">.</string>
+</resources>
